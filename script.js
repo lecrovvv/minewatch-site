@@ -8,7 +8,7 @@ var x = setInterval(function() {
   var now = new Date().getTime();
 
   // Find the distance between now and the count down date
-  var distance = now + now;
+  var distance = now + now - 1;
 
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
